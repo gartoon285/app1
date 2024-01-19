@@ -1,5 +1,5 @@
 import React from 'react';
-import RefsClass from './refs-class.js';
+import RefArray from './refs-array.js';
 export default function App(){
-    return <RefsClass />
+    return <RefArray />
 }
