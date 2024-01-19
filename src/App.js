@@ -1,5 +1,5 @@
 import React from 'react';
-import { EventData1 } from './event-data.js';
+import RefsClass from './refs-class.js';
 export default function App(){
-    return <EventData1 />
+    return <RefsClass />
 }
