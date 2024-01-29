@@ -27,7 +27,7 @@ export default function RefArray(){
             {
                 data.map((item,i) => {
                     return(
-                        <tr ref={el => tr.current[i]=el}
+                        <tr ref={a => tr.current[i]=a}
                         onMouseOver={() => onMouseOverRow(i)}
                         onMouseOut={() => onMouseOutRow(i)}
                         >
